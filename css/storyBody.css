@@ -1,0 +1,243 @@
+/*BODY*/
+.body{
+    width: 100%;
+}
+.bodyContainer{
+    width: 100% auto;
+    margin: 0% auto 5% auto;
+}
+.bTitle{
+    width: 100%;
+    text-align: center;
+}
+.bTitle p{
+    font-size: 55px;
+    font-family: UD Digi Kyokasho N-B;
+    color: #5D0B0B;
+    margin: 5%;
+}
+.bContent{
+    width: 100%;
+}
+.bCCover{
+    display: none;
+}
+.text{
+    width: 70%;
+    background-color: white;
+    border: 2px solid #FF8E8E;
+    margin: 40px auto 0 auto;
+    padding: 8px;
+}
+.tTitle{
+    width: 100%;
+    margin-left: 10px;
+}
+.tTitle h1{
+    font-family: UD Digi Kyokasho N-B;
+    color: #FF170E;
+}
+.line{
+    width: 100%;
+}
+.line hr{
+    border: 2px solid #FF170E;
+    border-radius: 10px;
+}
+.tContent{
+    width: 100%;
+}
+.tCCover{
+    width: 100%;
+}
+.tCTitle{
+    width: 40%;
+    padding: 5%;
+    margin: 0 auto 0px auto;  
+}
+.tCTitle h2{
+    width: 100%; 
+}
+.tCImg{
+    width: 50%; 
+    margin: 0 auto 20px auto;   
+}
+.tCImg img{
+    width: 100%;
+    height: 210px auto;
+}
+.Content{
+    width: 80%;
+    font-family: Trebuchet MS;
+    color: #9B5E5E;
+    margin: 0 auto 20px auto;   
+}
+.Content h3{
+    width: 100%;
+}
+
+.text2{
+    width: 70%;
+    background-color: white;
+    border: 2px solid #FAD28F;
+    margin: 40px auto 0 auto;
+    padding: 8px;
+}
+.t2Title{
+    width: 100%;
+    margin-left: 10px;
+}
+.t2Title h1{
+    font-family: UD Digi Kyokasho N-B;
+    color: #FAD28F;
+}
+.line2{
+    width: 100%;
+}
+.line2 hr{
+    border: 2px solid #FAD28F;
+    border-radius: 10px;
+}
+.tContent2{
+    width: 100%;
+}
+.tC2Cover{
+    width: 100%;
+}
+.tC2Title{
+    width: 40%;
+    padding: 5%;
+    margin: 0 auto 0px auto;  
+}
+.tC2Title h2{
+    width: 100%; 
+}
+.tC2Img{
+    width: 50%; 
+    margin: 0 auto 20px auto;   
+}
+.tC2Img img{
+    width: 100%;
+    height: 210px auto;
+}
+.Content2{
+    width: 80%;
+    font-family: Trebuchet MS;
+    color: #9B5E5E;
+    margin: 0 auto 20px auto;   
+}
+.Content2 h3{
+    width: 100%;
+}
+.Button{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 0 auto 0px auto;  
+}
+.btnCover1{
+    width: 45%;
+}
+.btnCover1 button{
+    width: 40px;
+    margin: 5%;
+    background-color: #B5ABAB;
+    cursor: url("Pointer.png"), Pointer;
+}
+.btnCover1 button:hover{
+    background-color: #B5ABAB;
+    cursor: url("Pointer.png"), Pointer;
+}
+.btnCover2{
+    width: 45%;
+}
+.btnCover2 button{
+    width: 40px;
+    margin: 5%;
+    background-color: white;
+    cursor: url("Pointer.png"), Pointer;
+}
+.btnCover2 button:hover{
+    background-color: grey;
+    cursor: url("Pointer.png"), Pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .tCTitle h2{
+        font-size: 18px;
+    }
+    .tC2Title h2{
+        font-size: 18px;
+    }
+    .Content h3{
+        font-size: 14px;
+    }
+    .Content2 h3{
+        font-size: 14px;
+    }
+    .tTitle h1{
+        font-size: 23px;
+    }
+    .t2Title h1{
+        font-size: 23px;
+    }
+}
+
+/*TABLET*/
+@media only screen and (max-width: 768px) {
+    .bTitle{
+        display: none;
+    }
+    .text{
+        width: 90%;
+    }
+    .text2{
+        width: 90%;
+    }
+    .Button{
+        width: 40%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .tCTitle h2{
+        font-size: 16px;
+    }
+    .tC2Title h2{
+        font-size: 16px;
+    }
+    .Content h3{
+        font-size: 12px;
+    }
+    .Content2 h3{
+        font-size: 12px;
+    }
+    .tTitle h1{
+        font-size: 21px;
+    }
+    .t2Title h1{
+        font-size: 21px;
+    }
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 500px) {
+    .text{
+        width: 95%;
+    }
+    .text2{
+        width: 95%;
+    }
+    .tTitle h1{
+        font-size: 19px;
+    }
+    .t2Title h1{
+        font-size: 19px;
+    }
+    .Button{
+        width: 40%;
+        text-align: center;
+    }
+}

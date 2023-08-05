@@ -1,0 +1,132 @@
+/*BODY*/
+.body{
+    width: 100%;
+}
+.bodyContainer{
+    width: 100% auto;
+    margin: 0% auto 5% auto;
+}
+.bTitle{
+    width: 100%;
+    text-align: center;
+}
+.bTitle p{
+    font-size: 55px;
+    font-family: UD Digi Kyokasho N-B;
+    color: #5D0B0B;
+    margin: 5%;
+}
+.bContent2{
+    width: 100%;
+}
+.bC2Cover{
+    width: 70%;
+    background-color: white;
+    border: 2px solid #FF8E8E;
+    margin: 40px auto 0 auto;
+    padding: 8px;
+}
+.t4Title{
+    width: 100%;
+    margin-left: 10px;
+}
+.t4Title h1{
+    font-family: UD Digi Kyokasho N-B;
+    color: #B6D429;
+}
+.line4{
+    width: 100%;
+}
+.line4 hr{
+    border: 2px solid #B6D429;
+    border-radius: 10px;
+}
+.t4Content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 10px 20px 10px;
+}
+.t4Content2{
+    width: 100%;
+}
+.t4CImgA{
+    width: 25%;
+}
+.t4CImgA img{
+    width: 100%;
+    height: 200px auto;
+}
+.t4CImgB{
+    width: 25%;
+}
+.t4CImgB img{
+    width: 100%;
+    height: 200px auto;
+}
+.t4CImgC{
+    width: 35%;
+    margin: 20px auto 0px auto;
+}
+.t4CImgC img{
+    width: 100%;
+    height: 210px auto;
+}
+.t4CImgD{
+    width: 30%;
+}
+.t4CImgD img{
+    width: 100%;
+    height: 210px auto;
+}
+.t4CImgE{
+    width: 35%;
+}
+.t4CImgE img{
+    width: 100%;
+    height: 210px auto;
+}
+.t4CImgF{
+    width: 35%;
+    margin: 20px auto 0px auto;
+}
+.t4CImgF img{
+    width: 100%;
+    height: 201px auto;
+}
+.t4CImgG{
+    width: 50%;
+    margin: 20px auto 0px auto;
+}
+.t4CImgG img{
+    width: 100%;
+    height: 222px auto;
+}
+@media only screen and (max-width: 900px) {
+    .t4Title h1{
+        font-size: 23px;
+    }
+}
+
+/*TABLET*/
+@media only screen and (max-width: 768px) {
+    .bTitle{
+        display: none;
+    }
+    .bC2Cover{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .t4Title h1{
+        font-size: 21px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .t4Title h1{
+        font-size: 19px;
+    }
+    .bC2Cover{
+        width: 95%;
+    }
+}

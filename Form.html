@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OrderForm</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="Image/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Image/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Image/favicon/favicon-16x16.png">
+        <link rel="manifest" href="Image/favicon/site.webmanifest">
+        <link rel="stylesheet" href="css/function.css">
+        <link rel="stylesheet" href="css/merchnavBar2.css">
+        <link rel="stylesheet" href="css/formBody.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/function.js"></script>
+        <script src="js/form.js"></script>
+    </head>
+    <body>
+        <div class="wholePage" id="slideTop">
+            <div class="header">
+                <div class="slideOpenNavBar">
+                    <div class="slideONBContainer">
+                        <div class="hTitle"><p>周邊(預購）</p></div>
+                        <div><img onclick="openNav()" src="Image/General/open.png"></div>
+                    </div>   
+                </div>
+                <div class="headerContent">
+                    <div class="logo">
+                        <a href="index.html"><img src="Image/General/Logo.png"></a>
+                    </div>
+                    <div class="menuBar">
+                        <a href="Introduction.html"><img src="Image/General/intro.png"></a>
+                        <a href="Creater.html"><img src="Image/General/creater.png"></a>
+                        <a href="CharacterVoice.html"><img src="Image/General/cv.png"></a>
+                        <a href="Story.html"><img src="Image/General/story.png"></a>
+                        <a href="Artwork.html"><img src="Image/General/art.png"></a>
+                        <a href="Merchandise.html"><img src="Image/General/merch.png"></a>
+                    </div>
+                </div>
+                <div class="slideBar" id="slideCloseNavBar">
+                    <div class="slideCNBContainer">
+                        <div class="cBar">
+                            <div class="logo">
+                                <a href="index.html"><img src="Image/General/Logo.png"></a>
+                            </div>
+                            <div class="closeBtn">
+                                <a href="javascript:void(0)"><img onclick="closeNav()" class="closeContainer" src="Image/General/close.png"></a>
+                            </div>
+                        </div>
+                        <div class="menuBar">
+                            <a href="Introduction.html"><img src="Image/General/intro.png"></a>
+                        <a href="Creater.html"><img src="Image/General/creater.png"></a>
+                        <a href="CharacterVoice.html"><img src="Image/General/cv.png"></a>
+                        <a href="Story.html"><img src="Image/General/story.png"></a>
+                        <a href="Artwork.html"><img src="Image/General/art.png"></a>
+                        <a href="Merchandise.html"><img src="Image/General/merch.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="bodyContainer">
+                    <div class="bTitle">
+                        <p>周邊(預購）</p> 
+                    </div>
+                    <div class="text">
+                        <div class="textCover">
+                            <div class="tContent">
+                                <form onsubmit="return">
+                                    <div class="formCover">
+                                        <div class="formTag">
+                                            <p>選擇商品1：</p>
+                                        </div>
+                                        <div class="formInput">
+                                            <select class="dropDown">
+                                                <option value="0"></option>
+                                                <option value="電擊文庫雜誌">電擊文庫雜誌</option>
+                                                <option value="Dengeki G的雜誌">Dengeki G的雜誌</option>
+                                                <option value="哲enge文庫櫻花莊的寵物女孩第8卷">哲enge文庫櫻花莊的寵物女孩第8卷</option>
+                                                <option value="哲enge文庫櫻花莊的的寵物女友7.5卷">哲enge文庫櫻花莊的的寵物女友7.5卷</option>
+                                                <option value="櫻花莊的寵物女友Vol.1 [2碟+ CD] (首次製作特權)">櫻花莊的寵物女友Vol.1 [2碟+ CD] (首次製作特權)</option>
+                                                <option value="椎名真白(蛋糕版本)">椎名真白(蛋糕版本)</option>
+                                                <option value="椎名真白(浴衣版本)">椎名真白(浴衣版本)</option>
+                                                <option value="椎名真白(校服版本)">椎名真白(校服版本)</option>
+                                            </select>
+                                            <div class="error1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="formCover">
+                                        <div class="formTag">
+                                            <p>商品數量1：</p>
+                                        </div>
+                                        <div class="formInput">
+                                            <select class="dropDown2">
+                                                <option value="0"></option>
+                                            </select>
+                                            <div class="error2"></div>
+                                        </div>
+                                    </div>
+                                    <div class="formCover">
+                                        <div class="formTag">
+                                            <p>選擇商品2：</p>
+                                        </div>
+                                        <div class="formInput">
+                                            <select class="dropDown3">
+                                                <option value="0"></option>
+                                                <option value="電擊文庫雜誌">電擊文庫雜誌</option>
+                                                <option value="Dengeki G的雜誌">Dengeki G的雜誌</option>
+                                                <option value="哲enge文庫櫻花莊的寵物女孩第8卷">哲enge文庫櫻花莊的寵物女孩第8卷</option>
+                                                <option value="哲enge文庫櫻花莊的的寵物女友7.5卷">哲enge文庫櫻花莊的的寵物女友7.5卷</option>
+                                                <option value="櫻花莊的寵物女友Vol.1 [2碟+ CD] (首次製作特權)">櫻花莊的寵物女友Vol.1 [2碟+ CD] (首次製作特權)</option>
+                                                <option value="椎名真白(蛋糕版本)">椎名真白(蛋糕版本)</option>
+                                                <option value="椎名真白(浴衣版本)">椎名真白(浴衣版本)</option>
+                                                <option value="椎名真白(校服版本)">椎名真白(校服版本)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="formCover">
+                                        <div class="formTag">
+                                            <p>商品數量2：</p>
+                                        </div>
+                                        <div class="formInput">
+                                            <select class="dropDown4">
+                                                <option value="0"></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="formCover">
+                                        <div class="formTag">
+                                            <p>名字:</p>
+                                        </div>
+                                        <div class="formInput">
+                                            <input type="text" id="text1" name="name">
+                                            <div class="error3"></div>
+                                        </div>
+                                    </div>
+                                    <div class="radioFlex">
+                                        <div class="formCover2">
+                                            <div class="formTag2">
+                                                <p>本地人</p>
+                                            </div>
+                                            <div class="formInput2">
+                                                <input type="radio" id="p1" name="p">
+                                            </div>
+                                        </div>
+                                        <div class="formCover3">
+                                            <div class="formTag3">
+                                                <p>非本地人</p>
+                                            </div>
+                                            <div class="formInput2">
+                                                <input type="radio" id="p2" name="p">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="error4"></div>
+                                    <div class="formCover">
+                                        <div class="formTag">
+                                            <p>國家:</p>
+                                        </div>
+                                        <div class="formInput">
+                                            <input type="text" id="country" name="country">
+                                            <div class="error5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="formCover">
+                                        <div class="formTag">
+                                            <p>送貨地址:</p>
+                                        </div>
+                                        <div class="formInput3">
+                                            <textarea type="text" id="address" name="address" rows="10" cols="50"></textarea>
+                                            <div class="error6"></div>
+                                        </div>
+                                    </div>
+                                    <div class="formCover">
+                                        <div class="formTag">
+                                            <p>聯絡號碼:</p>
+                                        </div>
+                                        <div class="formInput">
+                                            <input type="text" id="contact" name="contact">
+                                            <div class="error7"></div>
+                                        </div>
+                                    </div>
+                                    <div class="formCover">
+                                        <div class="formTag">
+                                            <p>電子郵件:</p>
+                                        </div>
+                                        <div class="formInput">
+                                            <input type="text" id="email" name="email">
+                                            <div class="error8"></div>
+                                        </div>
+                                    </div>
+                                    <div class="formCover">
+                                        <div class="formTag">
+                                            <p>付費方式:</p><br>
+                                        </div>
+                                    </div>
+                                    <div class="radioFlex2">
+                                        <div class="formCover4">
+                                            <div class="payImg1">
+                                                <img src="Image/Merch/p1.png" alt="">
+                                            </div>
+                                            <div class="formInput4">
+                                                <input type="radio" id="pay1" name="pay">
+                                            </div>
+                                        </div>
+                                        <div class="formCover4">
+                                            <div class="payImg2">
+                                                <img src="Image/Merch/p2.png" alt="">
+                                            </div>
+                                            <div class="formInput4">
+                                                <input type="radio" id="pay2" name="pay">
+                                            </div>
+                                        </div>
+                                        <div class="formCover4">
+                                            <div class="payImg3">
+                                                <img src="Image/Merch/p3.png" alt="">
+                                            </div>
+                                            <div class="formInput4">
+                                                <input type="radio" id="pay3" name="pay">
+                                            </div>
+                                        </div>
+                                        <div class="formCover4">
+                                            <div class="payImg4">
+                                                <img src="Image/Merch/p4.png" alt="">
+                                            </div>
+                                            <div class="formInput4">
+                                                <input type="radio" id="pay4" name="pay">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="error9"></div>
+                                    <div class="submitContainer">
+                                        <div class="submitBtn">
+                                            <input type="image" src="Image/Merch/subBtn.png">
+                                        </div>
+                                    </div>
+                                </form>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="toTop"><a href="#slideTop"><img src="Image/General/pageup.png"></a></div>
+            </div>
+        </div>
+    </body>
+</html>

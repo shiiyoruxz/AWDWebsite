@@ -1,0 +1,152 @@
+/*HEADER*/
+.header{
+    width: 100%;
+    background-color: #FFF0F2;
+    font-family: UD Digi Kyokasho N-B;
+}
+
+/*SLIDEBAR*/
+.slideOpenNavBar{
+    display: none;
+}
+#slideCloseNavBar{
+    display: none;
+}
+
+/*HEADERCONTENT*/
+.headerContent{
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.logo img{
+    width: 199px;
+    height: 92px;
+    cursor: url("Pointer.png"), Pointer;
+}
+.logo img:hover{
+    opacity: 0.7;
+}
+.menuBar{
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+.menuBar img{
+    width: 68px;
+    height: 39px;
+    cursor: url("Pointer.png"), Pointer;
+}
+.menuBar img:hover{
+    opacity: 0.7;
+    cursor: url("Pointer.png"), Pointer;
+}
+
+/*TABLET*/
+@media only screen and (max-width: 768px) {
+    /*NAVBAR*/
+    .slideOpenNavBar{
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .slideONBContainer{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hTitle{
+        font-size: 35px;
+        color: #EC69A7;
+        margin-top: 10px;
+    }
+    .slideONBContainer img{
+        margin: 15px;
+    }
+    .slideONBContainer img:hover{
+        opacity: 0.7;
+    }
+    .slideCNBContainer{
+        width: 100%;
+        position: absolute;
+        background-color: #FFF6F7;
+        top: 0;
+    }
+    .cBar{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .closeBtn{
+        width: 15%;
+        text-align: center;
+    }
+    .closeContainer{
+        margin-top: 10px;
+    }
+    .closeContainer:hover{
+        opacity: 0.7;
+    }
+    .logo{
+        width: 80%;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .logo img{
+        width: 199px;
+        height: 92px;
+    }
+    .menuBar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .menuBar img{
+        width: 68px;
+        height: 39px;
+        margin: 20px;
+    } 
+    .headerContent{
+        display: none;
+    }
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 500px) {
+    /*NAVBAR*/
+    .hTitle{
+        font-size: 30px;
+    }
+   .slideONBContainer img{
+        width: 30px;
+        height: 16px;
+   }
+   .closeContainer{
+        margin-right: 14px;
+        width: 27px;
+        height: 27px;
+   }
+   .logo img{
+       width: 179px;
+       height: 82px;
+   }
+   .menuBar img{
+       width: 61px;
+       height: 35px;
+       margin: 10px;
+   } 
+}

@@ -1,0 +1,586 @@
+/*BODY*/
+.body{
+    width: 100%;
+}
+.bodyContainer{
+    width: 100% auto;
+    margin: 0% auto 5% auto;
+}
+.bTitle{
+    width: 100%;
+    text-align: center;
+}
+.bTitle p{
+    font-size: 55px;
+    font-family: UD Digi Kyokasho N-B;
+    color: #5D0B0B;
+    margin: 5%;
+}
+.bContent{
+    width: 100%;
+}
+.bCCover{
+    width: 70%;
+    background-color: white;
+    border: 2px solid #FF8E8E;
+    margin: 20px auto 0 auto;
+}
+.mName{
+    display: none;
+}
+.bCCover1{
+    width: 100%;
+    display: flex;
+}
+
+.text1{
+    width: 50%;
+}
+.text1 .img1{
+    width: 100%;
+    height: 494px auto;
+    margin-top: 120px;
+}
+.img2{
+    display: none;
+}
+
+.text2{
+    width: 47%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.text2Cover{
+    width: 100%;
+    border: 2px solid grey;
+}
+.name{
+    margin: 10px;
+}
+.n1{
+    width: 70%;
+    float: right
+}
+.n1 img{
+    width: 100%;
+    height: 44px auto;
+}
+.n2{
+    width: 90%;
+    float: right
+}
+.n2 img{
+    width: 100%;
+    height: 110px auto;
+}
+.nCover{
+    width: 100%;
+    display: flex;
+}
+.n3{
+    width: 50%;
+    font-size: 23px;
+    font-family: UD Digi Kyokasho N-B;
+    color: #FF7EBF;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+.n3 p{
+    width: 100%;
+    margin-right: 10px;
+    text-align: right;
+}
+.n4{
+    width: 50%;
+}
+.n4 img{
+    width: 100%;  
+    height: 61px auto;
+}
+.line{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.line hr{
+    border: 2.5px solid #D9B6D5;
+    border-radius: 10px;
+}
+.detail{
+    width: 100%;
+    font-family: UD Digi Kyokasho N-B;
+    color: #D9B6D5;
+    padding: 8px;
+    text-align: center;
+}
+.info{
+    width: 90%;
+    font-family: UD Digi Kyokasho N-R;
+    color: #B87373;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.info1{
+    display: flex;
+}
+.dot{
+    margin-left: 10px;
+}
+.info2 h1{
+    margin-right: 5px;
+}
+.line2{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.line2 hr{
+    border: 1px solid#B87373;
+}
+.info3{
+    width: 90%;
+    color: #571832;
+    font-family: UD Digi Kyokasho N-R;
+    margin: 20px;
+}
+
+.bContent1{
+    width: 100%;
+}
+.bC1Cover{
+    width: 70%;
+    background-color: white;
+    border: 2px solid #FF8E8E;
+    margin: 40px auto 0 auto;
+    padding: 8px;
+}
+.t3Title{
+    width: 100%;
+    margin-left: 10px;
+}
+.t3Title h1{
+    font-family: UD Digi Kyokasho N-B;
+    color: #F5A724;
+}
+.line3{
+    width: 100%;
+}
+.line3 hr{
+    border: 2px solid #F5A724;
+    border-radius: 10px;
+}
+.t3Content{
+    font-size: 13px;
+    font-family: Trebuchet MS;
+    line-height: 1.7;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.moreBtn{
+    width: 100%;
+}
+.mBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+.mBtn img{
+    width: 70px;
+    cursor: url("Pointer.png"), Pointer;
+}
+.mBtn img:hover{
+    opacity: 0.7;
+}
+
+.bContent2{
+    width: 100%;
+}
+.bC2Cover{
+    width: 70%;
+    background-color: white;
+    border: 2px solid #FF8E8E;
+    margin: 40px auto 0 auto;
+    padding: 8px;
+}
+.t4Title{
+    width: 100%;
+    margin-left: 10px;
+}
+.t4Title h1{
+    font-family: UD Digi Kyokasho N-B;
+    color: #B6D429;
+}
+.line4{
+    width: 100%;
+}
+.line4 hr{
+    border: 2px solid #B6D429;
+    border-radius: 10px;
+}
+.t4Content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.t4CImgA{
+    width: 25%;
+}
+.t4CImgA img{
+    width: 100%;
+    height: 200px auto;
+    cursor: url("Pointer.png"), Pointer;
+}
+.t4CImgA img:hover{
+    opacity: 0.7;
+}
+.t4CImgB{
+    width: 25%;
+}
+.t4CImgB img{
+    width: 100%;
+    height: 200px auto;
+    cursor: url("Pointer.png"), Pointer;
+}
+.t4CImgB img:hover{
+    opacity: 0.7;
+}
+.wrap{
+    margin: 20px;
+}
+.t4ContentA{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #FC6B6B;
+    margin: 30px auto 30px auto;
+}
+.t4CCover{
+    width: 20%;
+    margin: 15px;
+}
+.friend{
+    width: 100%;
+    margin-top: 30px;
+}
+.friend img{
+    width: 100%;
+    height: 200px auto;
+}
+.fName{
+    font-family: UD Digi Kyokasho N-B;
+    color: #DB572E;
+    text-align: center;
+}
+.t4CCover2{
+    width: 75%;
+    font-size: 13px;
+    font-family: Trebuchet MS;
+    display: flex;
+    align-items: center;
+    line-height: 1.7;
+    margin: 15px;
+}
+.moreBtn{
+    width: 100%;
+}
+.mBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+.mBtn img{
+    width: 70px;
+}
+
+@media only screen and (max-width: 900px) {
+    .n3{
+        font-size: 15px;
+    }
+    .detail h1{
+        font-size: 23px;
+    }
+    .dot h2{
+        font-size: 15px;
+    }
+    .ques h1{
+        font-size: 23px;
+    }
+    .info2 h1{
+        font-size: 23px;
+    }
+    .info3 h2{
+        font-size: 18px;
+    }
+    .t3Title h1{
+        font-size: 23px;
+    }
+    .t3Content h2{
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .t4Title h1{
+        font-size: 23px;
+    }
+    .fName h1{
+        font-size: 23px;
+    }
+    .t4CCover2 h2{
+        font-size: 18px;
+        line-height: 1.4;
+    }
+}
+
+/*TABLET*/
+@media only screen and (max-width: 768px) {
+    .bTitle{
+        display: none;
+    }
+    .bCCover{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .mName{
+        display: block;
+        width: 60%;
+        margin: 35px auto 0 auto;
+    }
+    .n1{
+        width: 80%;
+        text-align: center;
+    }
+    .n1 img{
+        width: 100%;
+        height: 31px auto;
+        float: none;
+    }
+    .n2{
+        width: 100%;
+        text-align: center;
+    }
+    .n2 img{
+        width: 100%;
+        height: 88px auto;
+    }
+    .nCover{
+        width: 100%;
+        display: flex;
+    }
+    .n3{
+        width: 50%;
+        font-size: 22px;
+        font-family: UD Digi Kyokasho N-B;
+        color: #FF7EBF;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 12px;
+    }
+    .n3 p{
+        width: 100%;
+        margin-right: 10px;
+    }
+    .n4{
+        width: 50%;
+    }
+    .n4 img{
+        width: 100%;  
+        height: 39px auto;
+    }
+    .name{
+        display: none;
+    }
+    .bCCover1{
+        flex-direction: column;
+    }
+    .text1{
+        width: 100%;
+    }
+    .text1 .img1{
+        display: none;
+    }
+    .img2{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .img2 img{   
+        width: 55%;
+        height: auto;   
+    }
+    .text2{
+        width: 80%;
+        margin: 10px auto 10px auto;
+    }
+    .text2Cover{
+        width: 100%;
+        border: 0px solid grey;
+    }
+
+    .bC1Cover{
+        width: 90%;
+    }
+    .bC2Cover{
+        width: 90%;
+        background-color: white;
+        border: 2px solid #FF8E8E;
+        margin: 40px auto 0 auto;
+        padding: 8px;
+    }
+    .t4ContentA{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #FC6B6B;
+        margin: 30px auto 30px auto;
+    }
+    .t4CCover{
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px auto 0px auto;
+    }
+    .friend{
+        width: 20%;
+        margin: 10px 0px auto 0px;
+    }
+    .friend img{
+        width: 100%;
+        height: 200px auto;
+    }
+    .fName{
+        width: 38%;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto 0px auto 0px;
+    }
+    .t4CCover2{
+        width: 100%;
+        font-size: 13px;
+        display: flex;
+        align-items: none;
+        line-height: 1.4;
+        margin: 0px;
+    }
+    .t4CCover2 h2{
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .n3{
+        font-size: 13px;
+    }
+    .detail h1{
+        font-size: 21px;
+    }
+    .dot h2{
+        font-size: 13px;
+    }
+    .ques h1{
+        font-size: 21px;
+    }
+    .info2 h1{
+        font-size: 21px;
+    }
+    .info3 h2{
+        font-size: 16px;
+    }
+    .t3Title h1{
+        font-size: 21px;
+    }
+    .t3Content h2{
+        font-size: 16px;
+    }
+    .t4Title h1{
+        font-size: 21px;
+    }
+    .fName h1{
+        font-size: 21px;
+    }
+    .t4CCover2 h2{
+        font-size: 16px;
+    }
+    .mBtn img{
+        width: 55px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .fName{
+        width: 65%;
+    }
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 500px) {
+    .bCCover{
+        width: 95%;
+    }
+    .bC1Cover{
+        width: 95%;
+    }
+    .bC2Cover{
+        width: 95%;
+    }
+    .n3{
+        font-size: 11px;
+    }
+    .detail h1{
+        font-size: 19px;
+    }
+    .dot h2{
+        font-size: 11px;
+    }
+    .ques h1{
+        font-size: 19px;
+    }
+    .info2 h1{
+        font-size: 19px;
+    }
+    .info3 h2{
+        font-size: 14px;
+    }
+    .t3Title h1{
+        font-size: 19px;
+    }
+    .t3Content h2{
+        font-size: 14px;
+    }
+    .t4Title h1{
+        font-size: 19px;
+    }
+    .fName h1{
+        font-size: 19px;
+    }
+    .t4CCover2 h2{
+        font-size: 14px;
+    }
+    .mBtn img{
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .fName{
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .text2{
+        width: 90%;
+    }
+    .fName{
+        width: 60%;
+    }
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 300px) {
+    .fName{
+        width: 50%;
+    }
+}

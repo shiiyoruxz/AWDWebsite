@@ -1,0 +1,304 @@
+/*BODY*/
+.body{
+    width: 100%;
+    font-family: Trebuchet MS;
+}
+.bodyContainer{
+    width: 100% auto;
+    margin: 0% auto 5% auto;
+}
+.bTitle{
+    width: 100%;
+    text-align: center;
+}
+.bTitle p{
+    font-size: 55px;
+    font-family: UD Digi Kyokasho N-B;
+    color: #5D0B0B;
+    margin: 5%;
+}
+.text{
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+.textCover{
+    width: 100%;
+    background-color: white;
+    border: 1px solid #A4A2A2;
+    padding: 10px;
+}
+.tContent{
+    margin: 20px auto 20px auto;
+    padding: 40px;
+}
+form{
+    width: 100%;
+}
+.formCover{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+.formTag{
+    width: 25%;
+}
+.formTag p{
+    font-size: 20px;
+    margin: 0px auto 0px auto;
+}
+.formInput{
+    width: 75%;
+}
+.dropDown{
+    width: 80%;
+    height: 25px;
+    font-size: 16px;
+    margin: 3px auto 0px auto;
+    border-radius: 0px;
+}
+.dropDown2{
+    width: 80%;
+    height: 25px;
+    font-size: 16px;
+    margin: 3px auto 0px auto;
+    border-radius: 0px;
+}
+.dropDown3{
+    width: 80%;
+    height: 25px;
+    font-size: 16px;
+    margin: 3px auto 0px auto;
+    border-radius: 0px;
+}
+.dropDown4{
+    width: 80%;
+    height: 25px;
+    font-size: 16px;
+    margin: 3px auto 0px auto;
+    border-radius: 0px;
+}
+.formInput input{
+    width: 80%;
+    height: 25px;
+    font-size: 16px;
+    margin: 3px auto 0px auto;
+    border-radius: 0px;
+}
+#item1, #item2, #q1, #q2, #name, #country, #address, #contact, #email{
+    border: 1px solid #A4A2A2;
+}
+.error4, .error9{
+    width: 50%;
+    margin-left: 175px;
+}
+.radioFlex{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.formCover2{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+.formCover3{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+.formTag2{
+    width: 60%;
+}
+.formTag3{
+    width: 75%;
+}
+.formTag2 p, .formTag3 p{
+    font-size: 20px;
+    margin: 0px auto 0px auto;
+}
+.formInput2{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.formInput2 input{
+    height: 15px;
+    border-radius: 0px;
+}
+.formInput3{
+    width: 75%;
+}
+.formInput3 textarea{
+    width: 80%;
+    font-size: 16px;
+    margin: 3px auto 0px auto;
+    border-radius: 0px;
+}
+.radioFlex2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.formCover4{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.payImg1{
+    width: 100%;
+}
+.payImg1 img{
+    width: 100%;
+}
+.payImg2{
+    width: 45%;
+}
+.payImg2 img{
+    width: 100%;
+}
+.payImg3{
+    width: 47%;
+}
+.payImg3 img{
+    width: 100%;
+}
+.payImg4{
+    width: 74%;
+}
+.payImg4 img{
+    width: 100%;
+}
+.formInput4{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.formInput4 input{
+    height: 15px;
+    border-radius: 0px;
+}
+.submitContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    cursor: url("Pointer.png"), Pointer;
+}
+.submitBtn{
+    width: 20%;
+    cursor: url("Pointer.png"), Pointer;
+}
+.submitBtn input{
+    width: 100%;
+    cursor: url("Pointer.png"), Pointer;
+}
+.error{
+    color: red;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 900px) {
+    .text{
+        width: 70%;
+    }
+    .formCover{
+        padding: 15px;
+    }
+    .formCover2{
+        padding: 15px;
+    }
+    .formCover3{
+        padding: 8px;
+    }
+    .formCover4{
+        padding: 15px;
+    }
+}
+
+/*TABLET*/
+@media only screen and (max-width: 768px) {
+    .bTitle{
+        display: none;
+    }
+    .text{
+        width: 90%;
+        margin-top: 50px; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .tContent {
+        margin: 10px auto 10px auto;
+        padding: 10px;
+    }
+    .formTag p{
+        font-size: 14px;
+    }
+    .formTag2 p, .formTag3 p{
+        font-size: 14px;
+    }
+    .formInput4 input{
+        height: 11px;
+    }
+    .formInput2 input{
+        height: 11px;
+    }
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 500px) {
+    .text{
+        width: 95%;
+    }
+    .formCover{
+        padding: 10px;
+    }
+    .formCover2{
+        padding: 10px;
+    }
+    .formCover3{
+        padding: 4px;
+    }
+    .formCover4{
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .tContent {
+        margin: 7px auto 7px auto;
+        padding: 7px;
+    }
+    .formCover{
+        padding: 7px;
+    }
+    .formCover2{
+        padding: 7px;
+    }
+    .formCover3{
+        padding: 2px;
+    }
+    .formCover4{
+        padding: 7px;
+    }
+    .formInput4 input{
+        height: 9px;
+    }
+    .formInput2 input{
+        height: 9px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .tContent {
+        margin: 5px auto 5px auto;
+        padding: 5px;
+    }
+    .formTag p{
+        font-size: 12px;
+    }
+    .formTag2 p, .formTag3 p{
+        font-size: 12px;
+    }
+}

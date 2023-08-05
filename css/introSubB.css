@@ -1,0 +1,221 @@
+/*BODY*/
+.body{
+    width: 100%;
+}
+.bodyContainer{
+    width: 100% auto;
+    margin: 0% auto 5% auto;
+}
+.bTitle{
+    width: 100%;
+    text-align: center;
+}
+.bTitle p{
+    font-size: 55px;
+    font-family: UD Digi Kyokasho N-B;
+    color: #5D0B0B;
+    margin: 5%;
+}
+.bContent{
+    width: 70%;
+    margin: 40px auto 0 auto;
+}
+.text{
+    width: 100%;
+    background-color: white;
+    border: 2px solid #FF8E8E;
+    padding: 8px; 
+}
+.tTitle{
+    width: 100%;
+    margin-left: 10px;
+}
+.tTitle h1{
+    font-family: UD Digi Kyokasho N-B;
+    color: #F5A724;
+}
+.line{
+    width: 100%;
+}
+.line hr{
+    border: 2px solid #F5A724;
+    border-radius: 10px;
+}
+.tContent{
+    font-size: 13px;
+    font-family: Trebuchet MS;
+    line-height: 1.7;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cake{
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+.cake:hover{
+    opacity: 0.7;
+    cursor: url("Pointer.png"), Pointer;
+}
+
+.bContent1{
+    width: 100%;
+}
+.bC1Cover{
+    margin-top: 40px;
+}
+.text1{
+    width: 70%;
+    background-color: white;
+    border: 2px solid #FF8E8E;
+    margin: 20px auto 0 auto;
+    padding: 8px; 
+}
+.t1Title{
+    width: 100%;
+    margin-left: 10px;
+}
+.t1Title h1{
+    font-family: UD Digi Kyokasho N-B;
+    color: #B6D429;
+}
+.line1{
+    width: 100%;
+}
+.line1 hr{
+    border: 2px solid #B6D429;
+    border-radius: 10px;
+}
+.t1Content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foodImg{
+    width: 45%;
+    padding: 8px;
+}
+.fImgA{
+    width: 100%;
+}
+.fImgA img{
+    width: 100%;
+    height: 153px auto;
+    margin-top: 15px;
+}
+.fImgB{
+    width: 100%;
+}
+.fImgB img{
+    width: 100%;
+    height: 154px auto;
+    margin-top: 35px;
+}
+.foodDetails{
+    width: 50%;
+}
+.fDCover{
+    width: 100%;
+    border: 2px solid #FF8E8E;
+    margin: 20px auto 0 auto;
+    padding: 8px; 
+}
+.fContent{
+    font-size: 13px;
+    font-family: Trebuchet MS;
+    line-height: 1.7;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 900px) {
+    .tTitle h1{
+        font-size: 23px;
+    }
+    .t1Title h1{
+        font-size: 23px;
+    }
+    .tContent h2{
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .fContent h2{
+        font-size: 18px;
+        line-height: 1.4;
+    }
+}
+
+/*TABLET*/
+@media only screen and (max-width: 768px) {
+    .bTitle{
+        display: none;
+    }
+    .bContent{
+        width: 90%;
+    }
+    .text1{
+        width: 90%;
+    }
+    .t1Content{
+        flex-direction: column;
+    }
+    .foodImg{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .fImgA{
+        width: 50%;
+    }
+    .fImgA img{
+        width: 100%;
+        height: 153px auto;
+        margin-top: 15px;
+    }
+    .fImgB{
+        width: 45%;
+    }
+    .fImgB img{
+        width: 100%;
+        height: 154px auto;
+        margin-top: 15px;
+    }
+    .foodDetails{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .tTitle h1{
+        font-size: 21px;
+    }
+    .t1Title h1{
+        font-size: 21px;
+    }
+    .tContent h2{
+        font-size: 16px;
+    }
+    .fContent h2{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .tTitle h1{
+        font-size: 19px;
+    }
+    .t1Title h1{
+        font-size: 19px;
+    }
+    .bContent{
+        width: 95%;
+    }
+    .text1{
+        width: 95%;
+    }
+    .tContent h2{
+        font-size: 14px;
+    }
+    .fContent h2{
+        font-size: 14px;
+    }
+}

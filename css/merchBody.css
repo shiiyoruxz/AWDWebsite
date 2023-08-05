@@ -1,0 +1,358 @@
+/*CART*/
+#cartBtn{
+    height: 50px;
+    font-family: UD Digi Kyokasho N-B;
+    position: absolute;
+    top: 150px;
+    right: 60px;
+    background-color: white;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    cursor: url("Pointer.png"), Pointer;
+}
+#cartBtn a{
+    cursor: url("Pointer.png"), Pointer;
+}
+#cartBtn img{
+    width: 34px;
+    height: 26px;
+    margin-right: 20px;
+    cursor: url("Pointer.png"), Pointer;
+}
+#cartBtn h3{
+    color: black;
+}
+#cartBtn:hover{
+    opacity: 0.7;
+}
+
+/*BODY*/
+.body{
+    width: 100%;
+    font-family: Trebuchet MS;
+}
+.bodyContainer{
+    width: 100% auto;
+    margin: 0% auto 5% auto;
+}
+.bTitle{
+    width: 100%;
+    text-align: center;
+}
+.bTitle p{
+    font-size: 55px;
+    font-family: UD Digi Kyokasho N-B;
+    color: #5D0B0B;
+    margin: 5%;
+}
+.text{
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding: 8px;
+}
+.tTitle{
+    margin-left: 20px;
+}
+.tTitle h1{
+    color: #F21616;
+    font-size: 40px;
+    font-family: UD Digi Kyokasho N-B;
+}
+.text2{
+    width: 70%;  
+    margin: 40px auto 0 auto;
+}
+.textCover2{
+    width: 100%;
+    background-color: white;
+    border: 1px solid #00FFFF;
+    padding: 8px;
+}
+.t2Title{
+    width: 100%;
+    margin-left: 10px;
+}
+.t2Title h1{
+    font-family: UD Digi Kyokasho N-B;
+    color: #B6D429;
+}
+.line{
+    width: 100%;
+}
+.line hr{
+    border: 2px solid #B6D429;
+    border-radius: 10px;
+}
+.tContent2{
+    width:  100%;
+    padding: 20px;
+}
+.smallTitle{
+    font-weight: bold;
+    font-size: 25px;
+    color: #9B5E5E;
+}
+.tC2Text2{
+    margin-top: 40px;
+}
+.tC2Text3{
+    margin-top: 40px;
+}
+.tC2Text4{
+    margin-top: 40px;
+}
+.box1{
+    width: 45%;
+}
+.box1Cover{
+    width: 100%;
+}
+.box1Cover{
+    width: 100%;
+    border: 1px solid #A4A2A2;
+    padding: 20px;
+}
+.boxCTitle{
+    text-decoration: underline;
+    font-size: 20px;
+    color: black;
+    cursor: url("Pointer.png"), Pointer;
+}
+.mangazine{
+    width: 100%;
+    margin: 20px auto 10px auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+.manga{
+    width: 100%;
+    margin: 20px auto 10px auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+.mangaImg{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    cursor: url("Pointer.png"), Pointer;
+}
+.mangaImg img{
+    width: 100%;
+    cursor: url("Pointer.png"), Pointer;
+}
+.colorText{
+    color: #9B5E5E;
+}
+.DVD{
+    width: 100%;
+    margin: 20px auto 10px auto;
+    line-height: 1.5;
+}
+.dvdCover{
+    width: 100%;
+    border: 1px solid #A4A2A2;
+    padding: 50px;
+}
+.dvdImg{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    cursor: url("Pointer.png"), Pointer;
+}
+.dvdImg img{
+    width: 100%;
+    cursor: url("Pointer.png"), Pointer;
+}
+.figureContainer{
+    width: 100%;
+    border: 1px solid #A4A2A2;
+    line-height: 1.5;
+    margin: 20px auto 10px auto;
+}
+.figure{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;  
+}
+.figureCover{
+    width: 30%;
+    margin: 15px auto 15px auto;
+}
+.figureImg1{
+    width: 100%;
+    margin: 52px auto 10px auto;
+    cursor: url("Pointer.png"), Pointer;
+}
+.figureImg2{
+    width: 100%;
+    margin: 0px auto 10px auto;
+    cursor: url("Pointer.png"), Pointer;
+}
+.figureImg3{
+    width: 100%;
+    margin: 0px auto 10px auto;
+    cursor: url("Pointer.png"), Pointer;
+}
+.figureImg1 img{
+    width: 100%;
+    cursor: url("Pointer.png"), Pointer;
+}
+.figureImg2 img{
+    width: 100%;
+    cursor: url("Pointer.png"), Pointer;
+}
+.figureImg3 img{
+    width: 100%;
+    cursor: url("Pointer.png"), Pointer;
+}
+.figureCTitle{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 900px) {
+    /*CART*/
+    #cartBtn{
+        height: 40px;
+        border: 1px solid grey;
+    }
+    #cartBtn img{
+        width: 27px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    #cartBtn h3{
+        font-size: 14px;
+    }
+    .tTitle h1{
+        font-size: 30px;
+    }
+    .tTitle h1{
+        font-size: 23px;
+    }
+    .smallTitle{
+        font-size: 22px;
+    }
+    .boxCTitle{
+        font-size: 14px;
+    }
+    .colorText{
+        font-size: 13px;
+    }
+    .figureCover p{
+        font-size: 13px;
+    }
+}   
+
+/*TABLET*/
+@media only screen and (max-width: 768px) {
+    .bTitle{
+        display: none;
+    }
+    #cartBtn{
+        top: 80px;
+        right: 50px;
+    }
+    .text{
+        width: 90%; 
+        margin-top: 50px; 
+    }
+    .text2{
+        width: 90%;  
+    }
+}
+@media only screen and (max-width: 600px) {
+    /*CART*/
+    #cartBtn{
+        right: 45px;
+    }
+    .tTitle h1{
+        font-size: 25px;
+    }
+    .t2Title h1{
+        font-size: 21px;
+    }
+    .smallTitle{
+        font-size: 20px;
+    }
+    .boxCTitle{
+        font-size: 12px;
+    }
+    .colorText{
+        font-size: 11px;
+    }
+    .dvdCover {
+        padding: 30px;
+    }
+    .figureImg1{
+        margin: 40px auto 10px auto;
+    }
+    .figureCover p{
+        font-size: 11px;
+    }
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 500px) {
+    /*CART*/
+    #cartBtn{
+        height: 30px;
+        right: 25px;
+    }
+    #cartBtn img{
+        width: 21px;
+        height: 16px;
+        margin-right: 5px;
+    }
+    #cartBtn h3{
+        font-size: 10px;
+    }
+    .text{
+        width: 95%;  
+    }
+    .text2{
+        width: 95%;  
+    }
+    .tTitle h1{
+        font-size: 19px;
+    }
+    .t2Title h1{
+        font-size: 19px;
+    }
+    .smallTitle{
+        font-size: 18px;
+    }
+    .boxCTitle{
+        font-size: 10px;
+    }
+    .colorText{
+        font-size: 9px;
+    }
+    .figureImg1{
+        margin: 35px auto 10px auto;
+    }
+    .figureCover p{
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .dvdCover {
+        padding: 20px;
+    }
+    .figureImg1{
+        margin: 30px auto 10px auto;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .box1Cover{
+        padding: 10px;
+    }
+    .dvdCover {
+        padding: 10px;
+    }
+    .figureImg1{
+        margin: 25px auto 10px auto;
+    }
+}

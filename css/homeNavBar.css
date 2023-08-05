@@ -1,0 +1,750 @@
+/*HEADER*/
+.header{
+    width: 100%;
+}
+#videoContainer{
+    width: 100%; 
+    height: 100%; 
+}
+#videoContainer video{
+    max-width: 100%; 
+    min-height: 100%;
+    border: 0px none;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/*SLIDEBAR*/
+.slideOpenNavBar{
+    display: none;
+}
+#slideCloseNavBar{
+    display: none;
+}
+
+/*HEADERCONTENT*/
+.headerContent{
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 5px;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.logo img{
+    width: 199px;
+    height: 92px;
+    cursor: url("Pointer.png"), Pointer;
+}
+.logo img:hover{
+    opacity: 0.7;
+}
+.menuBar{
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.menuBar img{
+    width: 68px;
+    height: 39px;
+    cursor: url("Pointer.png"), Pointer;
+}
+.menuBar img:hover{
+    opacity: 0.7;
+    cursor: url("Pointer.png"), Pointer;
+}
+
+/*ABOUT*/
+.titleContent{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 70px;
+}
+.aboutContainer{
+    width: 30%;
+    display: flex;
+    margin-right: 10px;
+}
+.about h1{
+    font-size: 40px;
+}
+.about h3{
+    font-size: 28px;
+}
+.content2{
+    margin-top: 37px;
+    margin-left: 17px;
+}
+.content3{
+    color: #FF0606;
+    margin-top: 88px;
+    margin-left: 17px;
+}
+.square{
+    margin-top: 225px;
+}
+.content4{
+    margin-top: 108px;
+}
+.pink{
+    color: #F98EEB;
+}
+.gold{
+    color: #E1D038;
+}
+.mobileLogo{
+    display: none;
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mobileLogo img{
+    width: 199px;
+    height: 92px;
+    cursor: url("Pointer.png"), Pointer;
+}
+.overlay{
+    width: 100%;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.overlay img{
+    width: 100%;
+}
+.title{
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 860px) {
+    .titleContent{
+        top: 60px;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .about h1{
+        font-size: 35px;   
+    }
+    .about h3{
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .overlay{
+        top: 580px;
+    }
+    .title{
+        top: 580px;
+    }
+}
+@media only screen and (max-width: 1160px) {
+    .overlay{
+        top: 560px;
+    }
+    .title{
+        top: 560px;
+    }
+}
+@media only screen and (max-width: 1130px) {
+    .overlay{
+        top: 540px;
+    }
+    .title{
+        top: 540px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .overlay{
+        top: 520px;
+    }
+    .title{
+        top: 520px;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    .overlay{
+        top: 500px;
+    }
+    .title{
+        top: 500px;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    .overlay{
+        top: 470px;
+    }
+    .title{
+        top: 470px;
+    }
+}
+@media only screen and (max-width: 970px) {
+    .overlay{
+        top: 450px;
+    }
+    .title{
+        top: 450px;
+    }
+}
+@media only screen and (max-width: 930px) {
+    .overlay{
+        top: 430px;
+    }
+    .title{
+        top: 430px;
+    }
+}
+@media only screen and (max-width: 890px) {
+    .titleContent{
+        top: 80px;
+    }
+    .overlay{
+        top: 410px;
+    }
+    .title{
+        top: 410px;
+    }
+}
+@media only screen and (max-width: 860px) {
+    .overlay{
+        top: 420px;
+    }
+    .title{
+        top: 420px;
+    }
+}
+@media only screen and (max-width: 820px) {
+    .overlay{
+        top: 410px;
+    }
+    .title{
+        top: 410px;
+    }
+}
+@media only screen and (max-width: 790px) {
+    .titleContent{
+        top: 50px;
+    }
+    .overlay{
+        top: 390px;
+    }
+    .title{
+        top: 390px;
+    }
+}
+
+/*TABLET*/
+@media only screen and (max-width: 768px) {
+     /*NAVBAR*/
+    .slideOpenNavBar{
+        display: block;
+        float: right;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    .slideONBContainer img:hover{
+        opacity: 0.7;
+    }
+    .slideCNBContainer{
+        width: 100%;
+        position: absolute;
+        background-color: #FFF6F7;
+        top: 0;
+    }
+    .cBar{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .closeBtn{
+        width: 15%;
+    }
+    .closeContainer{
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .closeContainer:hover{
+        opacity: 0.7;
+    }
+    .logo{
+        width: 85%;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .logo img{
+        width: 199px;
+        height: 92px;
+    }
+    .menuBar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .menuBar img{
+        width: 68px;
+        height: 39px;
+        margin: 20px;
+    } 
+    .headerContent{
+        display: none;
+    }
+
+    /*ABOUT*/
+    .titleContent{
+        top: 100px;
+    }
+    .about{
+        margin-top: 0px;
+    }
+    .about h1{
+        font-size: 28px;
+    }
+    .about h3{
+        font-size: 23px;
+    }
+    .content2{
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .content3{
+        margin-top: 68px;
+        margin-left: 10px;
+    }
+    .square{
+        margin-top: 170px;
+    }
+    .content4{
+        margin-top: 78px;
+    } 
+    .mobileLogo{
+        display: block;
+        top: 300px;
+        left: 50%;
+    }
+    .mobileLogo img{
+        width: 199px;
+        height: 92px;
+    }
+    .overlay{
+        top: 330px;
+    }
+    .title{
+        top: 390px;
+    }
+    .title img{
+       width: 180px;
+       height: 52px;
+    }
+}
+@media only screen and (max-width: 730px) {
+    .mobileLogo{
+        top: 300px;
+    }
+    .overlay{
+        top: 320px;
+    }
+    .title{
+        top: 380px;
+    }
+}
+@media only screen and (max-width: 710px) {
+    .mobileLogo{
+        top: 290px;
+    }
+    .overlay{
+        top: 310px;
+    }
+    .title{
+        top: 360px;
+    }
+}
+@media only screen and (max-width: 690px) {
+    .slideONBContainer img{
+        width: 38px;
+        height: 20px;
+    }
+    .closeContainer{
+        margin-left: 40px;
+        width: 34px;
+        height: 34px;
+    }
+    .about h1{
+        font-size: 25px;
+    }
+    .about h3{
+        font-size: 15px;
+    }
+    .mobileLogo{
+        top: 280px;
+    }
+    .mobileLogo img{
+        width: 159px;
+        height: 73px;
+    }
+    .overlay{
+        top: 300px;
+    }
+    .title{
+        top: 350px;
+    }
+    .title img{
+        width: 144px;
+        height: 41px;
+     }
+}
+@media only screen and (max-width: 670px) {
+    .titleContent{
+        top: 90px;
+    }
+    .mobileLogo{
+        top: 280px;
+    }
+    .overlay{
+        top: 300px;
+    }
+    .title{
+        top: 350px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .titleContent{
+        top: 85px;
+    }
+    .mobileLogo{
+        top: 270px;
+    }
+    .overlay{
+        top: 290px;
+    }
+    .title{
+        top: 340px;
+    }
+}
+@media only screen and (max-width: 630px) {
+    .titleContent{
+        top: 70px;
+    }
+    .mobileLogo{
+        top: 270px;
+    }
+}
+@media only screen and (max-width: 610px) {
+    .titleContent{
+        top: 60px;
+    }
+    .mobileLogo{
+        top: 270px;
+    }
+}
+@media only screen and (max-width: 590px) {
+    .titleContent{
+        top: 50px;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .mobileLogo{
+        top: 260px;
+    }
+    .overlay{
+        top: 280px;
+    }
+    .title{
+        top: 330px;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .mobileLogo{
+        top: 250px;
+    }
+    .overlay{
+        top: 270px;
+    }
+    .title{
+        top: 330px;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .mobileLogo{
+        top: 240px;
+    }
+    .overlay{
+        top: 260px;
+    }
+    .title{
+        top: 320px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .closeContainer{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .aboutContainer{
+        margin-right: 15px;
+    }
+    .mobileLogo{
+        top: 230px;
+    }
+    .overlay{
+        top: 255px;
+    }
+    .titleContent{
+        top: 35px;
+    }
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 500px) {
+    /*NAVBAR*/
+   .slideONBContainer img{
+        width: 30px;
+        height: 16px;
+   }
+   .closeContainer{
+        margin-right: 14px;
+        width: 27px;
+        height: 27px;
+   }
+   .logo img{
+       width: 179px;
+       height: 82px;
+   }
+   .menuBar img{
+       width: 61px;
+       height: 35px;
+       margin: 10px;
+   } 
+
+   /*ABOUT*/
+   .titleContent{
+       top: 50px;
+   }
+   .about h1{
+       font-size: 20px;
+   }
+   .about h3{
+       font-size: 15px;
+   }
+   .content2{
+        margin-top: 22px;
+        margin-left: 5px;
+   }
+   .content3{
+        margin-top: 50px;
+        margin-left: 5px;
+   }
+   .square{
+        margin-top: 123px;
+   }
+   .content4{
+        margin-top: 58px;
+    } 
+   .mobileLogo{
+       top: 220px;
+   }
+   .mobileLogo img{
+        width: 127px;
+        height: 58px;
+    }
+   .overlay{
+       top: 240px;
+   }
+   .title{
+       top: 270px;
+   }
+   .title img{
+        width: 115px;
+        height: 32px;
+    }
+}
+@media only screen and (max-width: 490px) {
+    .mobileLogo{
+        top: 215px;
+    }
+    .overlay{
+        top: 235px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .mobileLogo{
+        top: 215px;
+    }
+    .overlay{
+        top: 230px;
+    }
+    .title{
+        top: 265px;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .mobileLogo{
+        top: 205px;
+    }
+    .overlay{
+        top: 220px;
+    }
+    .title{
+        top: 260px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .mobileLogo{
+        top: 200px;
+    }
+    .overlay{
+        top: 215px;
+    }
+    .title{
+        top: 255px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .mobileLogo{
+        top: 195px;
+    }
+    .overlay{
+        top: 210px;
+    }
+    .title{
+        top: 250px;
+    }
+}
+@media only screen and (max-width: 440px) {
+    .mobileLogo{
+        top: 190px;
+    }
+    .overlay{
+        top: 205px;
+    }
+    .title{
+        top: 245px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .slideONBContainer img{
+        width: 27px;
+        height: 14px;
+    }
+    .closeContainer{
+        margin-right: 16px;
+        width: 25px;
+        height: 25px;
+   }
+    .titleContent{
+        top: 35px;
+    }
+    .about h1{
+        font-size: 17px;
+    }
+    .about h3{
+        font-size: 12px;
+    }
+    .mobileLogo{
+        top: 195px;
+    }
+    .mobileLogo img{
+        width: 114px;
+        height: 52px;
+    }
+    .overlay{
+        top: 210px;
+    }
+    .title{
+        top: 240px;
+    }
+    .title img{
+        width: 103px;
+        height: 28px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .mobileLogo{
+        top: 190px;
+    }
+    .overlay{
+        top: 205px;
+    }
+    .title{
+        top: 235px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .mobileLogo{
+        top: 185px;
+    }
+    .overlay{
+        top: 200px;
+    }
+    .title{
+        top: 230px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .mobileLogo{
+        top: 175px;
+    }
+    .overlay{
+        top: 190px;
+    }
+    .title{
+        top: 220px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .mobileLogo{
+        top: 170px;
+    }
+    .overlay{
+        top: 185px;
+    }
+    .title{
+        top: 215px;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .mobileLogo{
+        top: 165px;
+    }
+    .overlay{
+        top: 180px;
+    }
+    .title{
+        top: 210px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .closeContainer{
+        margin-left: 10px;
+        margin-right: 25px;
+    }
+    .mobileLogo{
+        top: 160px;
+    }
+    .overlay{
+        top: 175px;
+    }
+    .title{
+        top: 205px;
+    }
+}

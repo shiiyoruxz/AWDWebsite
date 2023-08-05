@@ -1,0 +1,44 @@
+.slideshow-container{
+  width: 100%;
+}
+#content{
+  width: 100%;
+  background-color: white;
+  margin: 0px auto 0px auto;
+}
+.slider {
+  width: 100%;
+  line-height: 1.5;
+}
+.img1{
+  width: 70%;
+  margin: 0px 50px 0px auto;
+  cursor: url("Pointer.png"), Pointer;
+}
+.img2{
+  width: 60%;
+  margin: 40px auto 0 auto;
+  cursor: url("Pointer.png"), Pointer;
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 500px) {
+  .img1{
+    width: 80%;
+    margin: 0px auto 0px 90px;
+  }
+  .img2{
+    width: 70%;
+    margin: 20px auto 0 auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .img1{
+    width: 90%;
+    margin: 0px auto 0px 70px;
+  }
+  .img2{
+    width: 80%;
+    margin: 20px auto 0 auto;
+  }
+}
